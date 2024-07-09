@@ -38,7 +38,7 @@ class ProductService:
 
     def find_by_id(self, user_id: int) -> ProdutoDTO:
         logging.info(f'Buscando produto com ID {user_id}')
-        return TypeAdapter(ProdutoDTO).validate_python(self.read(user_id))
+        return TypeAdapter(ProdutoDTO).validate_python(self._read(user_id))
 
     def find_all(self) -> list[ProdutoDTO]:
         logging.info('Buscando todos os produtos')
@@ -47,7 +47,7 @@ class ProductService:
 
     def update(self, user_id: int, user_data: ProdutoUpdateDTO) -> ProdutoDTO:
         logging.info(f'Atualizando produto com ID {user_id}')
-        product = self.read(user_id)
+        product = self._read(user_id)
         data = user_data.model_dump(exclude_unset=True)
         for key, value in data.items():
             setattr(product,key,value)
@@ -57,7 +57,7 @@ class ProductService:
 
     def delete(self, user_id: int) -> int:
         logging.info(f'Deletando produto com ID {user_id}')
-        product = self.read(user_id)
+        product = self._read(user_id)
         self.repository.delete(product)
         logging.info(f'Prduto {user_id} deletado')
         return user_id
