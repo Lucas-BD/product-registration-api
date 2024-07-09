@@ -1,32 +1,63 @@
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, Header
 
 from src.config.dependencies import get_authenticated_user, get_product_service
-from src.domain.dto.dtos import ProdutoCreateDTO, ProdutoUpdateDTO
+from src.domain.dto.dtos import ProdutoCreateDTO, ProdutoDTO, ProdutoUpdateDTO
+from src.service.auth_service import AuthService
 from src.service.product_service import ProductService
 
 product_router = APIRouter(prefix='/products', tags=['Products'], dependencies=[Depends(get_authenticated_user)])
 
+auth_service = AuthService()
 
-# TODO: utilizar as anotações adequadamente
-async def create(request: ProdutoCreateDTO, service: ProductService = Depends(get_product_service)):
+@product_router.post(path='/',
+                     status_code=201,
+                     description='Cria Produto',
+                     response_model=ProdutoCreateDTO)
+async def create(request: ProdutoCreateDTO, 
+                 service: ProductService = Depends(get_product_service),
+                 authorization: str = Header(alias='Authorization')
+                 ):
+    auth_service.validate_token(authorization)
     return service.create(request)
 
-
-# TODO: implementar método para buscar produto por ID
-async def find_by_id(user_id: int, service: ProductService = Depends(get_product_service)):
+@product_router.get(path='/{user_id}',
+                    status_code=200,
+                    description='Busca Produto por id',
+                    response_model=ProdutoDTO)
+async def find_by_id(user_id: int, 
+                     service: ProductService = Depends(get_product_service),
+                     authorization: str = Header(alias='Authorization')):
+    auth_service.validate_token(authorization)
     return service.find_by_id(user_id=user_id)
 
 
-# TODO: implementar método para buscar todos os produtos
-async def find_all(service: ProductService = Depends(get_product_service)):
+@product_router.get(path='/',
+                    status_code=200,
+                    description='Buscar Tosdos os produtos',
+                    response_model=list[ProdutoDTO])
+async def find_all(service: ProductService = Depends(get_product_service),
+                   authorization: str = Header(alias='Authorization')):
+    auth_service.validate_token(authorization)
     return service.find_all()
 
 
-# TODO: implementar método para atualizar produto
-async def update(user_id: int, user_data: ProdutoUpdateDTO, service: ProductService = Depends(get_product_service)):
+@product_router.put(path='/{user_id}',
+                    status_code=200,
+                    description='Atualizar Produto',
+                    response_model=ProdutoUpdateDTO)
+async def update(user_id: int, 
+                 user_data: ProdutoUpdateDTO, 
+                 service: ProductService = Depends(get_product_service),
+                 authorization: str = Header(alias='Authorization')):
+    auth_service.validate_token(authorization)
     return service.update(user_id, user_data)
 
 
-# TODO: implementar método para deletar produto
-async def delete(user_id: int, service: ProductService = Depends(get_product_service)):
+@product_router.delete(path='/{user_id}',
+                       status_code=204,
+                       description='Deletar Produto por id')
+async def delete(user_id: int, 
+                 service: ProductService = Depends(get_product_service),
+                 authorization: str = Header(alias='Authorization')):
+    auth_service.validate_token(authorization)
     service.delete(user_id=user_id)
