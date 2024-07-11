@@ -33,3 +33,7 @@ Os alunos devem implementar a lógica de negócios e interação com o banco de 
 
 
 Para fazer essa atividade é necessário fazer um fork ou criar um novo repositório.
+
+## Notas de entrega:
+
+Alterações feitas apenas nas camadas solicitadas, em adição a uma modificação nos DTOs.
