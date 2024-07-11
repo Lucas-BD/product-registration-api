@@ -1,0 +1,211 @@
+2024-07-09 15:39:50,708 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 15:40:29,221 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 15:41:28,561 [product-registration-api] product_service.create - Criando produto
+2024-07-09 15:41:40,167 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 15:41:59,498 [product-registration-api] product_service.create - Criando produto
+2024-07-09 15:42:31,485 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 15:44:03,362 [product-registration-api] product_service.create - Criando produto
+2024-07-09 15:44:21,231 [product-registration-api] product_service.create - Criando produto
+2024-07-09 15:45:16,749 [product-registration-api] product_service.create - Criando produto
+2024-07-09 15:46:20,552 [product-registration-api] product_service.create - Criando produto
+2024-07-09 15:47:15,934 [product-registration-api] product_service.create - Criando produto
+2024-07-09 15:47:44,243 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 15:47:58,665 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 15:50:34,600 [product-registration-api] product_service.create - Criando produto
+2024-07-09 16:18:50,085 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 16:18:54,683 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 16:19:01,224 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 16:19:02,130 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 16:20:32,767 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 16:20:34,427 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 16:25:04,683 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 16:25:06,193 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 16:25:24,599 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 16:25:24,599 [product-registration-api] product_service.read - Buscando um Produto.
+2024-07-09 16:25:25,647 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 16:25:25,648 [product-registration-api] product_service.read - Buscando um Produto.
+2024-07-09 16:25:26,360 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 16:25:26,361 [product-registration-api] product_service.read - Buscando um Produto.
+2024-07-09 16:25:27,068 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 16:25:27,069 [product-registration-api] product_service.read - Buscando um Produto.
+2024-07-09 16:25:27,730 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 16:25:27,730 [product-registration-api] product_service.read - Buscando um Produto.
+2024-07-09 16:26:31,569 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 16:26:32,636 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 16:27:31,280 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 16:27:32,172 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 16:27:32,896 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 16:31:38,865 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 16:31:38,865 [product-registration-api] product_service.read - Buscando um Produto.
+2024-07-09 16:31:40,810 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 16:31:40,811 [product-registration-api] product_service.read - Buscando um Produto.
+2024-07-09 16:41:33,204 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 16:41:33,205 [product-registration-api] product_service.read - Buscando um Produto.
+2024-07-09 16:41:34,561 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 16:41:34,561 [product-registration-api] product_service.read - Buscando um Produto.
+2024-07-09 16:41:35,414 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 16:41:35,414 [product-registration-api] product_service.read - Buscando um Produto.
+2024-07-09 16:43:31,404 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 16:43:31,405 [product-registration-api] product_service.read - Buscando um Produto.
+2024-07-09 16:43:32,551 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 16:43:32,552 [product-registration-api] product_service.read - Buscando um Produto.
+2024-07-09 16:47:23,269 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 16:47:31,666 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 16:51:08,480 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 16:52:21,003 [product-registration-api] product_service.create - Criando produto
+2024-07-09 16:52:36,036 [product-registration-api] product_service.create - Criando produto
+2024-07-09 16:52:38,728 [product-registration-api] product_service.create - Criando produto
+2024-07-09 16:52:39,546 [product-registration-api] product_service.create - Criando produto
+2024-07-09 16:53:35,191 [product-registration-api] product_service.create - Criando produto
+2024-07-09 16:53:36,562 [product-registration-api] product_service.create - Criando produto
+2024-07-09 16:53:58,773 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 16:54:00,919 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 16:54:40,960 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 16:57:55,581 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 16:58:07,220 [product-registration-api] product_service.create - Criando produto
+2024-07-09 16:59:19,409 [product-registration-api] product_service.create - Criando produto
+2024-07-09 16:59:44,119 [product-registration-api] product_service.create - Criando produto
+2024-07-09 17:00:21,041 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 17:00:50,292 [product-registration-api] product_service.create - Criando produto
+2024-07-09 17:03:58,464 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 17:04:08,538 [product-registration-api] product_service.create - Criando produto
+2024-07-09 17:12:36,137 [product-registration-api] product_service.create - Criando produto
+2024-07-09 17:17:40,298 [product-registration-api] product_service.create - Criando produto
+2024-07-09 17:23:18,369 [product-registration-api] product_service.find_by_id - Buscando produto com ID 1
+2024-07-09 17:23:18,370 [product-registration-api] product_service.read - Buscando um Produto.
+2024-07-09 17:23:35,182 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 17:23:35,183 [product-registration-api] product_service.read - Buscando um Produto.
+2024-07-09 17:24:07,986 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 17:24:34,439 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 17:24:34,440 [product-registration-api] product_service.read - Buscando um Produto.
+2024-07-09 17:28:13,558 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 17:28:16,249 [product-registration-api] product_service.create - Criando produto
+2024-07-09 17:33:48,109 [product-registration-api] product_service.create - Criando produto
+2024-07-09 17:42:32,999 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 17:42:33,005 [product-registration-api] product_service._read - Usuário 1 não encontrado.
+2024-07-09 17:42:39,041 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 17:42:42,564 [product-registration-api] product_service.find_by_id - Buscando produto com ID 1
+2024-07-09 17:42:42,564 [product-registration-api] product_service.read - Buscando um Produto.
+2024-07-09 17:42:42,565 [product-registration-api] product_service._read - Usuário 1 não encontrado.
+2024-07-09 17:42:55,756 [product-registration-api] product_service.create - Criando produto
+2024-07-09 17:42:59,858 [product-registration-api] product_service.find_by_id - Buscando produto com ID 1
+2024-07-09 17:42:59,859 [product-registration-api] product_service.read - Buscando um Produto.
+2024-07-09 17:43:03,927 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 17:43:03,933 [product-registration-api] product_service.delete - Prduto 1 deletado
+2024-07-09 17:43:07,952 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 17:43:10,981 [product-registration-api] product_service.create - Criando produto
+2024-07-09 17:43:14,023 [product-registration-api] product_service.find_by_id - Buscando produto com ID 1
+2024-07-09 17:43:14,023 [product-registration-api] product_service.read - Buscando um Produto.
+2024-07-09 17:43:21,559 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 17:44:01,808 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 17:44:01,814 [product-registration-api] product_service.delete - Prduto 1 deletado
+2024-07-09 17:47:50,102 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 17:47:52,676 [product-registration-api] product_service.create - Criando produto
+2024-07-09 17:47:59,406 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 17:47:59,413 [product-registration-api] product_service.delete - Prduto 1 deletado
+2024-07-09 17:48:02,358 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 17:48:05,237 [product-registration-api] product_service.create - Criando produto
+2024-07-09 17:51:19,058 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 17:51:19,064 [product-registration-api] product_service.delete - Prduto 1 deletado
+2024-07-09 17:51:22,405 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 17:51:26,606 [product-registration-api] product_service.find_by_id - Buscando produto com ID 1
+2024-07-09 17:51:26,606 [product-registration-api] product_service.read - Buscando um Produto.
+2024-07-09 17:51:26,607 [product-registration-api] product_service._read - Usuário 1 não encontrado.
+2024-07-09 17:51:43,669 [product-registration-api] product_service.create - Criando produto
+2024-07-09 17:51:55,571 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 17:51:58,703 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 17:51:58,708 [product-registration-api] product_service.delete - Prduto 1 deletado
+2024-07-09 17:52:02,980 [product-registration-api] product_service.find_by_id - Buscando produto com ID 1
+2024-07-09 17:52:02,980 [product-registration-api] product_service.read - Buscando um Produto.
+2024-07-09 17:52:02,981 [product-registration-api] product_service._read - Usuário 1 não encontrado.
+2024-07-09 17:52:04,969 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 17:53:35,528 [product-registration-api] product_service.create - Criando produto
+2024-07-09 17:59:01,220 [product-registration-api] product_service.find_by_id - Buscando produto com ID 1
+2024-07-09 17:59:01,221 [product-registration-api] product_service.read - Buscando um Produto.
+2024-07-09 18:14:53,676 [product-registration-api] product_service.create - Criando produto
+2024-07-09 18:22:02,075 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 18:22:05,058 [product-registration-api] product_service.create - Criando produto
+2024-07-09 18:22:08,822 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 18:22:08,829 [product-registration-api] product_service.delete - Prduto 1 deletado
+2024-07-09 18:22:11,619 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 18:22:16,601 [product-registration-api] product_service.create - Criando produto
+2024-07-09 18:22:21,593 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 18:22:21,599 [product-registration-api] product_service.delete - Prduto 1 deletado
+2024-07-09 18:22:24,009 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 18:22:38,399 [product-registration-api] product_service.create - Criando produto
+2024-07-09 18:24:34,638 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 18:24:34,642 [product-registration-api] product_service.delete - Prduto 1 deletado
+2024-07-09 18:28:05,026 [product-registration-api] product_service.create - Criando produto
+2024-07-09 18:29:03,751 [product-registration-api] product_service.find_by_id - Buscando produto com ID 1
+2024-07-09 19:06:18,524 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 19:06:28,393 [product-registration-api] product_service.create - Criando produto
+2024-07-09 19:07:28,449 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 19:07:28,462 [product-registration-api] product_service.delete - Prduto 1 deletado
+2024-07-09 19:07:32,560 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 19:08:22,065 [product-registration-api] product_service.create - Criando produto
+2024-07-09 19:08:35,937 [product-registration-api] product_service.create - Criando produto
+2024-07-09 19:08:46,238 [product-registration-api] product_service.find_by_id - Buscando produto com ID 1
+2024-07-09 19:08:49,652 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 19:08:53,720 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 19:08:53,727 [product-registration-api] product_service.delete - Prduto 1 deletado
+2024-07-09 19:08:58,413 [product-registration-api] product_service.delete - Deletando produto com ID 2
+2024-07-09 19:08:58,419 [product-registration-api] product_service.delete - Prduto 2 deletado
+2024-07-09 19:09:02,680 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 19:09:02,681 [product-registration-api] product_service._read - Usuário 1 não encontrado.
+2024-07-09 19:09:06,706 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 19:09:09,156 [product-registration-api] product_service.find_by_id - Buscando produto com ID 1
+2024-07-09 19:09:09,157 [product-registration-api] product_service._read - Usuário 1 não encontrado.
+2024-07-09 19:23:12,421 [product-registration-api] product_service.create - Criando produto
+2024-07-09 19:25:29,150 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 19:25:29,158 [product-registration-api] product_service.delete - Prduto 1 deletado
+2024-07-09 19:31:05,409 [product-registration-api] product_service.create - Criando produto
+2024-07-09 19:33:22,075 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 19:33:22,085 [product-registration-api] product_service.delete - Prduto 1 deletado
+2024-07-09 19:33:26,675 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 19:33:31,357 [product-registration-api] product_service.create - Criando produto
+2024-07-09 19:34:48,610 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 19:34:48,617 [product-registration-api] product_service.delete - Prduto 1 deletado
+2024-07-09 19:35:43,061 [product-registration-api] product_service.create - Criando produto
+2024-07-09 19:38:49,289 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 19:38:49,302 [product-registration-api] product_service.delete - Prduto 1 deletado
+2024-07-09 19:39:16,462 [product-registration-api] product_service.create - Criando produto
+2024-07-09 19:40:45,693 [product-registration-api] product_service.create - Criando produto
+2024-07-09 19:43:08,210 [product-registration-api] product_service.create - Criando produto
+2024-07-09 19:48:33,619 [product-registration-api] product_service.create - Criando produto
+2024-07-09 19:54:32,641 [product-registration-api] product_service.create - Criando produto
+2024-07-09 19:58:01,510 [product-registration-api] product_service.create - Criando produto
+2024-07-09 20:02:18,455 [product-registration-api] product_service.create - Criando produto
+2024-07-09 20:21:21,870 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 20:21:25,794 [product-registration-api] product_service.create - Criando produto
+2024-07-09 20:23:57,011 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 20:23:57,018 [product-registration-api] product_service.delete - Prduto 1 deletado
+2024-07-09 20:24:26,168 [product-registration-api] product_service.create - Criando produto
+2024-07-09 20:24:32,385 [product-registration-api] product_service.create - Criando produto
+2024-07-09 20:24:36,278 [product-registration-api] product_service.create - Criando produto
+2024-07-09 20:24:43,360 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 20:24:43,365 [product-registration-api] product_service.delete - Prduto 1 deletado
+2024-07-09 20:24:49,765 [product-registration-api] product_service.delete - Deletando produto com ID 3
+2024-07-09 20:24:49,769 [product-registration-api] product_service.delete - Prduto 3 deletado
+2024-07-09 20:24:53,037 [product-registration-api] product_service.delete - Deletando produto com ID 2
+2024-07-09 20:24:53,043 [product-registration-api] product_service.delete - Prduto 2 deletado
+2024-07-09 20:26:52,951 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 20:26:55,124 [product-registration-api] product_service.create - Criando produto
+2024-07-09 20:27:20,707 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 20:27:20,713 [product-registration-api] product_service.delete - Prduto 1 deletado
+2024-07-09 20:29:18,335 [product-registration-api] product_service.create - Criando produto
+2024-07-09 20:29:39,678 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 20:29:39,683 [product-registration-api] product_service.delete - Prduto 1 deletado
+2024-07-09 20:33:05,150 [product-registration-api] product_service.create - Criando produto
+2024-07-09 20:33:19,833 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 20:33:19,839 [product-registration-api] product_service.delete - Prduto 1 deletado
+2024-07-09 20:35:17,275 [product-registration-api] product_service.create - Criando produto
+2024-07-09 20:35:21,218 [product-registration-api] product_service.find_by_id - Buscando produto com ID 1
+2024-07-09 20:35:29,399 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 20:35:29,408 [product-registration-api] product_service.delete - Prduto 1 deletado
+2024-07-09 20:35:31,764 [product-registration-api] product_service.create - Criando produto
+2024-07-09 20:35:35,791 [product-registration-api] product_service.find_all - Buscando todos os produtos
+2024-07-09 20:35:38,897 [product-registration-api] product_service.find_by_id - Buscando produto com ID 1
+2024-07-09 20:35:48,973 [product-registration-api] product_service.find_by_id - Buscando produto com ID 1
+2024-07-09 20:35:52,525 [product-registration-api] product_service.delete - Deletando produto com ID 1
+2024-07-09 20:35:52,532 [product-registration-api] product_service.delete - Prduto 1 deletado
+2024-07-09 20:35:55,359 [product-registration-api] product_service.find_all - Buscando todos os produtos

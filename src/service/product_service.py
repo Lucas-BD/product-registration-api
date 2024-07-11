@@ -59,5 +59,5 @@ class ProductService:
         logging.info(f'Deletando produto com ID {user_id}')
         product = self._read(user_id)
         self.repository.delete(product)
-        logging.info(f'Prduto {user_id} deletado')
+        logging.info(f'Produto {user_id} deletado')
         return user_id

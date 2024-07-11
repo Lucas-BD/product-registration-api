@@ -2,22 +2,18 @@ from fastapi import APIRouter, Depends, Header
 
 from src.config.dependencies import get_authenticated_user, get_product_service
 from src.domain.dto.dtos import ProdutoCreateDTO, ProdutoDTO, ProdutoUpdateDTO
-from src.service.auth_service import AuthService
 from src.service.product_service import ProductService
 
 product_router = APIRouter(prefix='/products', tags=['Products'], dependencies=[Depends(get_authenticated_user)])
 
-auth_service = AuthService()
-
 @product_router.post(path='/',
                      status_code=201,
                      description='Cria Produto',
-                     response_model=ProdutoCreateDTO)
+                     response_model=ProdutoDTO)
 async def create(request: ProdutoCreateDTO, 
                  service: ProductService = Depends(get_product_service),
-                 authorization: str = Header(alias='Authorization')
+                 authorization: str = Depends(get_authenticated_user)
                  ):
-    auth_service.validate_token(authorization)
     return service.create(request)
 
 @product_router.get(path='/{user_id}',
@@ -26,8 +22,7 @@ async def create(request: ProdutoCreateDTO,
                     response_model=ProdutoDTO)
 async def find_by_id(user_id: int, 
                      service: ProductService = Depends(get_product_service),
-                     authorization: str = Header(alias='Authorization')):
-    auth_service.validate_token(authorization)
+                     authorization: str = Depends(get_authenticated_user)):
     return service.find_by_id(user_id=user_id)
 
 
@@ -36,20 +31,18 @@ async def find_by_id(user_id: int,
                     description='Buscar Tosdos os produtos',
                     response_model=list[ProdutoDTO])
 async def find_all(service: ProductService = Depends(get_product_service),
-                   authorization: str = Header(alias='Authorization')):
-    auth_service.validate_token(authorization)
+                   authorization: str = Depends(get_authenticated_user)):
     return service.find_all()
 
 
 @product_router.put(path='/{user_id}',
                     status_code=200,
                     description='Atualizar Produto',
-                    response_model=ProdutoUpdateDTO)
+                    response_model=ProdutoDTO)
 async def update(user_id: int, 
                  user_data: ProdutoUpdateDTO, 
                  service: ProductService = Depends(get_product_service),
-                 authorization: str = Header(alias='Authorization')):
-    auth_service.validate_token(authorization)
+                 authorization: str = Depends(get_authenticated_user)):
     return service.update(user_id, user_data)
 
 
@@ -58,6 +51,5 @@ async def update(user_id: int,
                        description='Deletar Produto por id')
 async def delete(user_id: int, 
                  service: ProductService = Depends(get_product_service),
-                 authorization: str = Header(alias='Authorization')):
-    auth_service.validate_token(authorization)
+                 authorization: str = Depends(get_authenticated_user)):
     service.delete(user_id=user_id)
